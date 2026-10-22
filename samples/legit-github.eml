@@ -1,0 +1,17 @@
+Return-Path: <noreply@github.com>
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=github.com;
+ dkim=pass header.d=github.com; dmarc=pass header.from=github.com
+From: GitHub <noreply@github.com>
+To: alex@example.com
+Subject: [GitHub] A new SSH key was added to your account
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Hey Sashagran!
+
+A new public key was added to your account.
+If you did not add this key, review it here: https://github.com/settings/keys
+
+Thanks,
+The GitHub Team
