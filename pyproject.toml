@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phishscope"
+version = "1.0.0"
+description = "Static phishing analysis for .eml files: SPF/DKIM/DMARC, look-alike domains, link and attachment checks, risk score"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Alexander Zheltov" }]
+requires-python = ">=3.10"
+keywords = ["phishing", "email-security", "social-engineering", "soc", "dfir", "ioc"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Security", "Topic :: Communications :: Email"]
+
+[project.scripts]
+phishscope = "phishscope.cli:main"
+
+[tool.setuptools]
+packages = ["phishscope"]
